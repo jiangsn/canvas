@@ -5,6 +5,7 @@
   html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
   }
 #canvas {
     display: block;
@@ -18,7 +19,21 @@ header{
     border-bottom:1px solid grey;
     padding:3px 12px;
 }
-
+@media screen and (max-width: 375px){
+ .color #customize{
+   display: none;
+ }
+ .menu{
+   display: flex;
+   width: 100%;
+ }
+ header{
+  display: none;
+ }
+ .color span{
+  display: none;
+ }
+}
 .icon{
 width: 26px;
 height: 26px;

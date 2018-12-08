@@ -204,6 +204,7 @@ function download(){
         document.body.appendChild(a);
         a.href=url;
         a.download="图片";
+        a.target="_blank"
         a.click();
     })
 }
