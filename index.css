@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+#canvas {
+    display: block;
+    background-color: rgb(254, 254, 254);
+  }
+header{
+    text-align: center;
+}
+.menu{
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:3px 12px;
+}
+
+.icon{
+width: 26px;
+height: 26px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+
+  .tools .icon{
+  border: 1px solid;
+  padding:5px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+.draws{
+  display: flex;
+  padding: 5px;
+  }
+
+  .draws .icon{
+    margin-left: 10px;
+    cursor: pointer;
+    }
+
+    
+
+  .opt>button{
+    width: 78px;
+    height: 32px;
+    background: #cb4a32;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color:white;
+    font-size: 18px;
+    font-weight: 700; 
+  }
+  .color {
+   margin-left: 10px;
+   display: flex;
+
+  }
+  .color input{
+    
+    width:26px;
+    height: 26px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .color span{
+    margin-right:10px;
+    width:26px;
+    height: 26px;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+   
+  }
+  
+  .color .black{
+    background-color: black;
+  }
+  .color .red{
+    background-color: red;
+  }
+  .color .green{
+    background-color: green;
+  }
+  .color .blue{
+    background-color: blue;
+  }
+  .color .yellow{
+    background-color: yellow;
+  }
+  .active{
+    transform: scale(1.2);
+    transition: all 0.3s;
+  }

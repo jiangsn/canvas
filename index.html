@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Canvas</title>
+</head>
+<body>
+    <header><h1>canvas</h1></header>
+    <div class="menu">
+      <div class="tools">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-clear"></use>
+        </svg>
+     </div>
+     <div class="draws">
+        <svg id="qianbi" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-qianbi"></use>
+        </svg>
+        <svg id="xiang" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-xiangpica"></use>
+        </svg>
+        <div class="color">
+            <span id="black" class="black" ></span>
+            <span id="red" class="red"></span>
+            <span id="blue" class="blue"></span>
+            <span id="green" class="green"></span>
+            <span id="yellow" class="yellow"></span>
+            <input id="customize"type="color">
+    </div>
+    </div>
+   
+    <div class="opt">
+            <button id="download">Save</button>
+    </div>
+    </div>
+  
+    <canvas id="canvas" >
+            
+    </canvas>
+    <script src="./index.js"></script>
+    <script src="//at.alicdn.com/t/font_953870_mzz3dee5kqe.js"></script>
+</body>
+</html>
